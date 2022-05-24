@@ -16,6 +16,8 @@
 		ABFF826A283D3B67004F8EFB /* Personalized_Eco_RoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8269283D3B67004F8EFB /* Personalized_Eco_RoutingTests.swift */; };
 		ABFF8274283D3B67004F8EFB /* Personalized_Eco_RoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8273283D3B67004F8EFB /* Personalized_Eco_RoutingUITests.swift */; };
 		ABFF8276283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8275283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift */; };
+		ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */; };
+		ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8285283D3B8F004F8EFB /* MapboxNavigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */,
+				ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = "Personalized Eco Routing";
+			packageProductDependencies = (
+				ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */,
+				ABFF8285283D3B8F004F8EFB /* MapboxNavigation */,
+			);
 			productName = "Personalized Eco Routing";
 			productReference = ABFF824F283D3B64004F8EFB /* Personalized Eco Routing.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = ABFF8246283D3B63004F8EFB;
+			packageReferences = (
+				ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
 			productRefGroup = ABFF8250283D3B64004F8EFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +607,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		ABFF8285283D3B8F004F8EFB /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ABFF8247283D3B63004F8EFB /* Project object */;
 }

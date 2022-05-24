@@ -15,7 +15,8 @@ import CoreLocation
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-         
+        let locationManager = NavigationLocationManager()
+        locationManager.requestTemporaryFullAccuracyAuthorization(withPurposeKey: "purpose")
         // Define two waypoints to travel between
         let origin = Waypoint(coordinate: CLLocationCoordinate2D(latitude: 38.9131752, longitude: -77.0324047), name: "Mapbox")
         let destination = Waypoint(coordinate: CLLocationCoordinate2D(latitude: 38.8977, longitude: -77.0365), name: "White House")

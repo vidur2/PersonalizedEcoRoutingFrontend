@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12CDE877783672B3909CAB19 /* Pods_Personalized_Eco_RoutingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3730C2574BA694AE8E17E96 /* Pods_Personalized_Eco_RoutingTests.framework */; };
+		3B6519C2CF7E397695286E27 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CED83E2B56DAD6FC5DFF681 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework */; };
 		ABFF8253283D3B64004F8EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8252283D3B64004F8EFB /* AppDelegate.swift */; };
 		ABFF8255283D3B64004F8EFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8254283D3B64004F8EFB /* SceneDelegate.swift */; };
 		ABFF8257283D3B64004F8EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8256283D3B64004F8EFB /* ViewController.swift */; };
@@ -18,6 +20,7 @@
 		ABFF8276283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8275283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift */; };
 		ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */; };
 		ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8285283D3B8F004F8EFB /* MapboxNavigation */; };
+		B8BC4BE8D5E1C9C5B3549F40 /* Pods_Personalized_Eco_Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC774F40EB1F0E427DBC711A /* Pods_Personalized_Eco_Routing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CED83E2B56DAD6FC5DFF681 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574113C4C455A7F22BA9A684 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		731DDD0518A274868ACDB684 /* Pods-Personalized Eco RoutingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco RoutingTests.debug.xcconfig"; path = "Target Support Files/Pods-Personalized Eco RoutingTests/Pods-Personalized Eco RoutingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8944312B0E4451FE48C8678E /* Pods-Personalized Eco Routing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco Routing.debug.xcconfig"; path = "Target Support Files/Pods-Personalized Eco Routing/Pods-Personalized Eco Routing.debug.xcconfig"; sourceTree = "<group>"; };
+		A3730C2574BA694AE8E17E96 /* Pods_Personalized_Eco_RoutingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personalized_Eco_RoutingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF824F283D3B64004F8EFB /* Personalized Eco Routing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personalized Eco Routing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF8252283D3B64004F8EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFF8254283D3B64004F8EFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		ABFF826F283D3B67004F8EFB /* Personalized Eco RoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personalized Eco RoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF8273283D3B67004F8EFB /* Personalized_Eco_RoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalized_Eco_RoutingUITests.swift; sourceTree = "<group>"; };
 		ABFF8275283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalized_Eco_RoutingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADCBE03096882E98B90A2A64 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.release.xcconfig"; path = "Target Support Files/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B055E08B4B72F38FB3DC5299 /* Pods-Personalized Eco Routing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco Routing.release.xcconfig"; path = "Target Support Files/Pods-Personalized Eco Routing/Pods-Personalized Eco Routing.release.xcconfig"; sourceTree = "<group>"; };
+		DC774F40EB1F0E427DBC711A /* Pods_Personalized_Eco_Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personalized_Eco_Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9A730D5C8F2DD4F1AECABC /* Pods-Personalized Eco RoutingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalized Eco RoutingTests.release.xcconfig"; path = "Target Support Files/Pods-Personalized Eco RoutingTests/Pods-Personalized Eco RoutingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			files = (
 				ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */,
 				ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */,
+				B8BC4BE8D5E1C9C5B3549F40 /* Pods_Personalized_Eco_Routing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CDE877783672B3909CAB19 /* Pods_Personalized_Eco_RoutingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6519C2CF7E397695286E27 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097D5E3FF91A801229ABF4B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC774F40EB1F0E427DBC711A /* Pods_Personalized_Eco_Routing.framework */,
+				0CED83E2B56DAD6FC5DFF681 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework */,
+				A3730C2574BA694AE8E17E96 /* Pods_Personalized_Eco_RoutingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E0BBE41251ACA12A6DC2D8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8944312B0E4451FE48C8678E /* Pods-Personalized Eco Routing.debug.xcconfig */,
+				B055E08B4B72F38FB3DC5299 /* Pods-Personalized Eco Routing.release.xcconfig */,
+				574113C4C455A7F22BA9A684 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.debug.xcconfig */,
+				ADCBE03096882E98B90A2A64 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.release.xcconfig */,
+				731DDD0518A274868ACDB684 /* Pods-Personalized Eco RoutingTests.debug.xcconfig */,
+				EC9A730D5C8F2DD4F1AECABC /* Pods-Personalized Eco RoutingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ABFF8246283D3B63004F8EFB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				ABFF8268283D3B67004F8EFB /* Personalized Eco RoutingTests */,
 				ABFF8272283D3B67004F8EFB /* Personalized Eco RoutingUITests */,
 				ABFF8250283D3B64004F8EFB /* Products */,
+				3E0BBE41251ACA12A6DC2D8D /* Pods */,
+				097D5E3FF91A801229ABF4B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFF8279283D3B67004F8EFB /* Build configuration list for PBXNativeTarget "Personalized Eco Routing" */;
 			buildPhases = (
+				F78D3F49F7904D60065A00F9 /* [CP] Check Pods Manifest.lock */,
 				ABFF824B283D3B64004F8EFB /* Sources */,
 				ABFF824C283D3B64004F8EFB /* Frameworks */,
 				ABFF824D283D3B64004F8EFB /* Resources */,
+				362C1D7B880A478699C3DAE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFF827C283D3B67004F8EFB /* Build configuration list for PBXNativeTarget "Personalized Eco RoutingTests" */;
 			buildPhases = (
+				88805848F69090B267C8512E /* [CP] Check Pods Manifest.lock */,
 				ABFF8261283D3B67004F8EFB /* Sources */,
 				ABFF8262283D3B67004F8EFB /* Frameworks */,
 				ABFF8263283D3B67004F8EFB /* Resources */,
@@ -177,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFF827F283D3B67004F8EFB /* Build configuration list for PBXNativeTarget "Personalized Eco RoutingUITests" */;
 			buildPhases = (
+				FE7E80F5C2BE1A181F98D426 /* [CP] Check Pods Manifest.lock */,
 				ABFF826B283D3B67004F8EFB /* Sources */,
 				ABFF826C283D3B67004F8EFB /* Frameworks */,
 				ABFF826D283D3B67004F8EFB /* Resources */,
+				05A054D5F1C2B883B35AFEFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,7 +270,7 @@
 			);
 			mainGroup = ABFF8246283D3B63004F8EFB;
 			packageReferences = (
-				ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+				ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios.git" */,
 			);
 			productRefGroup = ABFF8250283D3B64004F8EFB /* Products */;
 			projectDirPath = "";
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A054D5F1C2B883B35AFEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362C1D7B880A478699C3DAE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing/Pods-Personalized Eco Routing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing/Pods-Personalized Eco Routing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Personalized Eco Routing/Pods-Personalized Eco Routing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88805848F69090B267C8512E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personalized Eco RoutingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78D3F49F7904D60065A00F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personalized Eco Routing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7E80F5C2BE1A181F98D426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personalized Eco Routing-Personalized Eco RoutingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABFF824B283D3B64004F8EFB /* Sources */ = {
@@ -443,6 +592,7 @@
 		};
 		ABFF827A283D3B67004F8EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8944312B0E4451FE48C8678E /* Pods-Personalized Eco Routing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +623,7 @@
 		};
 		ABFF827B283D3B67004F8EFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B055E08B4B72F38FB3DC5299 /* Pods-Personalized Eco Routing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +654,7 @@
 		};
 		ABFF827D283D3B67004F8EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731DDD0518A274868ACDB684 /* Pods-Personalized Eco RoutingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +674,7 @@
 		};
 		ABFF827E283D3B67004F8EFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9A730D5C8F2DD4F1AECABC /* Pods-Personalized Eco RoutingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +694,7 @@
 		};
 		ABFF8280283D3B67004F8EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574113C4C455A7F22BA9A684 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +712,7 @@
 		};
 		ABFF8281283D3B67004F8EFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCBE03096882E98B90A2A64 /* Pods-Personalized Eco Routing-Personalized Eco RoutingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -615,7 +770,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+		ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
 			requirement = {
@@ -628,12 +783,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios.git" */;
 			productName = MapboxCoreNavigation;
 		};
 		ABFF8285283D3B8F004F8EFB /* MapboxNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios.git" */;
 			productName = MapboxNavigation;
 		};
 /* End XCSwiftPackageProductDependency section */

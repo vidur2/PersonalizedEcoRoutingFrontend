@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		12CDE877783672B3909CAB19 /* Pods_Personalized_Eco_RoutingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3730C2574BA694AE8E17E96 /* Pods_Personalized_Eco_RoutingTests.framework */; };
 		3B6519C2CF7E397695286E27 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CED83E2B56DAD6FC5DFF681 /* Pods_Personalized_Eco_Routing_Personalized_Eco_RoutingUITests.framework */; };
+		AB74F432284E826400D16969 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = AB74F431284E826400D16969 /* MapboxCoreNavigation */; };
+		AB74F434284E826400D16969 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = AB74F433284E826400D16969 /* MapboxNavigation */; };
 		AB9CF96828471CEE00071F41 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CF96728471CED00071F41 /* StateManager.swift */; };
 		AB9CF96E2847B53400071F41 /* BackendInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CF96D2847B53400071F41 /* BackendInter.swift */; };
 		ABAC030E2846661300D58B85 /* ConfigState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC030D2846661300D58B85 /* ConfigState.swift */; };
@@ -24,8 +26,6 @@
 		ABFF826A283D3B67004F8EFB /* Personalized_Eco_RoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8269283D3B67004F8EFB /* Personalized_Eco_RoutingTests.swift */; };
 		ABFF8274283D3B67004F8EFB /* Personalized_Eco_RoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8273283D3B67004F8EFB /* Personalized_Eco_RoutingUITests.swift */; };
 		ABFF8276283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF8275283D3B67004F8EFB /* Personalized_Eco_RoutingUITestsLaunchTests.swift */; };
-		ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */; };
-		ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABFF8285283D3B8F004F8EFB /* MapboxNavigation */; };
 		B8BC4BE8D5E1C9C5B3549F40 /* Pods_Personalized_Eco_Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC774F40EB1F0E427DBC711A /* Pods_Personalized_Eco_Routing.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,8 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFF8284283D3B8F004F8EFB /* MapboxCoreNavigation in Frameworks */,
-				ABFF8286283D3B8F004F8EFB /* MapboxNavigation in Frameworks */,
+				AB74F432284E826400D16969 /* MapboxCoreNavigation in Frameworks */,
+				AB74F434284E826400D16969 /* MapboxNavigation in Frameworks */,
 				B8BC4BE8D5E1C9C5B3549F40 /* Pods_Personalized_Eco_Routing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +208,8 @@
 			);
 			name = "Personalized Eco Routing";
 			packageProductDependencies = (
-				ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */,
-				ABFF8285283D3B8F004F8EFB /* MapboxNavigation */,
+				AB74F431284E826400D16969 /* MapboxCoreNavigation */,
+				AB74F433284E826400D16969 /* MapboxNavigation */,
 			);
 			productName = "Personalized Eco Routing";
 			productReference = ABFF824F283D3B64004F8EFB /* Personalized Eco Routing.app */;
@@ -287,7 +287,7 @@
 			);
 			mainGroup = ABFF8246283D3B63004F8EFB;
 			packageReferences = (
-				ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+				AB74F430284E826400D16969 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
 			);
 			productRefGroup = ABFF8250283D3B64004F8EFB /* Products */;
 			projectDirPath = "";
@@ -793,7 +793,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+		AB74F430284E826400D16969 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
 			requirement = {
@@ -804,14 +804,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ABFF8283283D3B8F004F8EFB /* MapboxCoreNavigation */ = {
+		AB74F431284E826400D16969 /* MapboxCoreNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			package = AB74F430284E826400D16969 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
 			productName = MapboxCoreNavigation;
 		};
-		ABFF8285283D3B8F004F8EFB /* MapboxNavigation */ = {
+		AB74F433284E826400D16969 /* MapboxNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ABFF8282283D3B8F004F8EFB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			package = AB74F430284E826400D16969 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
 			productName = MapboxNavigation;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -68,7 +68,7 @@ class BackendInter {
         let parameters: [String: Any] = [
             "username": ConfigManager.shared.getEmailAddress(),
             "token": ConfigManager.shared.getIdToken(),
-            "fuel_efficency": fuelEff
+            "fuel_efficiency": fuelEff
         ]
         return self.sendRequest(path: "/create_user", params: parameters)
     }

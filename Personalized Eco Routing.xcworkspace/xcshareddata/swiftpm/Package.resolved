@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mapbox/mapbox-directions-swift.git",
       "state" : {
-        "revision" : "e767d05f1322629165937ee2d1b86e6413bf62b2",
-        "version" : "2.5.0-rc.1"
+        "revision" : "0309c64e66a841fff5c231c7650e0bd8f29886d3",
+        "version" : "2.6.0-beta.1"
       }
     },
     {
@@ -51,7 +51,7 @@
       "location" : "https://github.com/mapbox/mapbox-navigation-ios.git",
       "state" : {
         "branch" : "main",
-        "revision" : "de7b08d9d0c374e0b8dc98b6811adfb91db2a852"
+        "revision" : "90891098ad984050d84d70005666dbbbea4c08c3"
       }
     },
     {
@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mapbox/mapbox-navigation-native-ios.git",
       "state" : {
-        "revision" : "f5f408b7166d92d68864ab35ac06e7caee3f7238",
-        "version" : "101.0.0"
+        "revision" : "e7cf68d281c5089640817551bc75526e640e73d1",
+        "version" : "101.0.1"
       }
     },
     {

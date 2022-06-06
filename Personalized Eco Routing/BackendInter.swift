@@ -7,8 +7,8 @@
 import Foundation
 
 struct LatitudeLongitude {
-    var Lat: Float,
-    Long: Float
+    var Lat: Double,
+    Long: Double
 }
 
 struct LoadUserDataRes: Decodable {
@@ -18,7 +18,7 @@ struct LoadUserDataRes: Decodable {
 
 class BackendInter {
     
-    let backendUri  = "http://localhost:8080"
+    let backendUri  = "https://aqueous-retreat-86962.herokuapp.com"
     
     private var res: Data? = nil;
     
@@ -53,7 +53,7 @@ class BackendInter {
         }
     }
     
-    func updateModel(actualSpeeds: Array<Float>, positions: Array<LatitudeLongitude>) -> Data? {
+    func updateModel(actualSpeeds: Array<Double>, positions: Array<LatitudeLongitude>) -> Data? {
         let parameters: [String: Any] = [
             "email": ConfigManager.shared.getEmailAddress(),
             "actual_speeds": actualSpeeds,

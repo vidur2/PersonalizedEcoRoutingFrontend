@@ -36,8 +36,15 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>processing</string>
 		<string>audio</string>
 		<string>location</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are not in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
 </dict>
 </plist>

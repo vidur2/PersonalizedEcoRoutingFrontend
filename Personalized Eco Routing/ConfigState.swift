@@ -16,6 +16,8 @@ class ConfigManager {
     private var idToken: String?
     private var emailAddress: String?
     
+    public var locationArray: Array<LocationCoord> = []
+    
     public func setSignInState(state: Bool) {
         self.signedIn = state
     }

@@ -58,6 +58,7 @@ class LoginViewController: UIViewController {
                     stateManager.transition(to: State.mapVc)
                 } else {
                     let mpgController = MpgViewController();
+                    mpgController.addSuperView(view: self)
                     self.present(mpgController, animated: true);
                 }
             }

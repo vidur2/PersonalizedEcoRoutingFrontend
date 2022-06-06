@@ -15,19 +15,31 @@ import MapboxNavigation
 import MapboxDirections
 import Turf
 
+struct LocationCoord {
+    let Speed: Double,
+        Lat: Double,
+        Lng: Double
+}
+
 // #-end-code-snippet: navigation dependencies-swift
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, CLLocationManagerDelegate {
     // #-code-snippet: navigation vc-variables-swift
+    var session: BackendInter!;
     var navigationMapView: NavigationMapView!
     var navigationViewController: NavigationViewController!
     var routeOptions: NavigationRouteOptions?
     var routeResponse: RouteResponse?
     var startButton: UIButton!
+    var locationManager: CLLocationManager?
+    
     // #-end-code-snippet: navigation vc-variables-swift
     // #-code-snippet: navigation view-did-load-swift
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.session = BackendInter()
+        
+        getUserLocation()
+        
         navigationMapView = NavigationMapView(frame: view.bounds)
         navigationMapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.addSubview(navigationMapView)
@@ -167,6 +179,20 @@ class MapViewController: UIViewController {
             // Add the style layer of the route line to the map
             try? mapView.mapboxMap.style.addLayer(lineLayer)
         }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.last {
+            let coord = LocationCoord(Speed: location.speed, Lat: location.coordinate.latitude, Lng: location.coordinate.longitude)
+            ConfigManager.shared.locationArray.append(coord)
+        }
+    }
+    
+    func getUserLocation() {
+        self.locationManager = CLLocationManager()
+        self.locationManager?.delegate = self;
+        self.locationManager?.requestAlwaysAuthorization()
+        self.locationManager?.allowsBackgroundLocationUpdates = true
     }
     // #-end-code-snippet: navigation draw-route-swift
 }

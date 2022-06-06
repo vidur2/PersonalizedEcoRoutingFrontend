@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.123306351755-0091g2rnbp8oj1qftb7lov56e6o5kl4b</string>
+			</array>
+		</dict>
+	</array>
 	<key>MBXAccessToken</key>
 	<string>pk.eyJ1IjoidmlkdXIyIiwiYSI6ImNsM2prN3RkbzA4YWkzY280bWQ0NGV3azgifQ.ZYXh-sXcO32gZp8MTbRYFA</string>
 	<key>UIApplicationSceneManifest</key>
@@ -25,8 +36,15 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>processing</string>
 		<string>audio</string>
 		<string>location</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are not in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app will track your location in the background for route optimization even when you are in the app (None of your data is sold, just used to predict optimal fuel routes)</string>
 </dict>
 </plist>
